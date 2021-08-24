@@ -1,7 +1,5 @@
 import unittest
-from unittest import result
 import requests
-import json
 
 class UserTest(unittest.TestCase):
     API_URL = "http://127.0.0.1:5000/user"
